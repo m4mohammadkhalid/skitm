@@ -1,0 +1,44 @@
+@media screen and (max-width: 991px){
+  .col-lg-4:nth-child(3) .top-header-item{
+    padding-left: 0;
+  }
+  
+  .title{
+    margin-bottom: 40px;
+  }
+  /*
+  .event-detail .best-course .course-left ul li:last-child{
+    display: block;
+    margin-left: 64px;
+  }
+  */
+  .top-header-item{
+    display: none;
+  }
+  .site-brand img{
+    width: 100px;
+  }
+  .site-header .top-header{
+    padding: 20px 0;
+  }
+  .site-header{
+    position: relative;
+  }
+}
+@media screen and (max-width: 767px){
+  .title{
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 450px){
+  /*
+  .popular-main .popular-item .popular-info{
+    padding: 0 0 20px 0;
+  }
+  */
+}
+@media screen and (max-width: 360px){
+  .site-brand img{
+    width: 80px;
+  }
+}

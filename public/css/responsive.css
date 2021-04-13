@@ -1,0 +1,78 @@
+/* Large Deveice: 1280px. 
+=======================================================================
+=======================================================================
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+/* Tablet Layout: 768px. 
+========================================================================
+========================================================================
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.feature-image {
+		margin-bottom: 50px;
+	}
+
+	.feature-image::after {
+		width: 85%;
+		left: 40px;
+	}
+
+}
+
+/* Mobile Layout: 320px. 
+=====================================================================
+=====================================================================
+*/
+
+@media only screen and (max-width: 767px) {
+
+	.section-title h2 {
+		font-size: 26px;
+		line-height: 36px;
+	}
+
+	.feature-image {
+		margin-bottom: 50px;
+	}
+
+	.feature-image::after {
+		top: -20px;
+		right: -20px;
+	}
+
+	.feature-content h5 {
+		font-size: 18px;
+	}
+
+}
+
+/* Wide Mobile Layout: 480px. 
+=====================================================================
+=====================================================================
+*/
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+	.section-title h2 {
+		font-size: 32px;
+		line-height: 42px;
+	}
+
+	.feature-image {
+		margin-bottom: 50px;
+	}
+
+	.feature-image::after {
+		top: -20px;
+		right: -20px;
+	}
+
+	.feature-content h5 {
+		font-size: 18px;
+	}
+
+}

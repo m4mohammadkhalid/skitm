@@ -1,0 +1,79 @@
+
+
+.khalidimage {
+	display: inline-block;
+	max-width: 100%;
+}
+@media (max-width: 540px) { .site-header { visibility: hidden; display: none;} }
+
+
+@media (max-width: 575px) {
+	.section-padding {
+		padding: 50px 20px;
+	}
+}
+
+/* Feature Section 
+============== */
+
+.feature-area .section-title {
+	margin-top: 60px;
+}
+
+.single-feature-item {
+	position: relative;
+}
+
+.single-feature-item .feature-icon {
+	color: #FCC741;
+	display: inline-block;
+	padding: 30px 0;
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	float: left;
+	position: absolute;
+	top: -5px;
+}
+
+.feature-icon i:before {
+	font-size: 60px;
+}
+
+.feature-image {
+	position: relative;
+	z-index: 1;
+	margin-top: 50px;
+}
+
+.feature-image img {
+	border-radius: 5px;
+}
+
+.feature-image:after {
+	position: absolute;
+	content: " ";
+	width: 100%;
+	height: 100%;
+	top: -40px;
+	right: -40px;
+	border: 10px solid #FCC741;
+	z-index: -1;
+	border-radius: 5px;
+}
+
+.feature-content {
+	margin: 40px 0;
+	padding-left: 15px;
+}
+
+.feature-content h5 {
+	font-size: 18px;
+	padding-left: 100px;
+	margin-bottom: 8px;
+}
+
+.feature-content p {
+	padding-left: 100px;
+}
+
