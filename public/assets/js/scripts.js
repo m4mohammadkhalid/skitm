@@ -1,12 +1,3 @@
-/*===================================
-Author       : Bestwebcreator.
-Template Name: Eduglobal - Education & Courses HTML Template
-Version      : 1.2
-===================================*/
-
-/*===================================*
-PAGE JS
-*===================================*/
 
 (function($) {
 	'use strict';
@@ -480,15 +471,6 @@ PAGE JS
 		});
 	});
 	
-	/*===================================*
-	DEMO SWITCHER JS
-	*===================================*/
-	
-	$(document).ready( function() {
-		$(window).on("load", function() {
-			$('body').prepend('<div id="demo_content" class="demo_switcher"></div>');
-			$("#demo_content").load("http://bestwebcreator.com/eduglobal/demo/demo.html");
-		});
-	});
+
 
 })(jQuery);

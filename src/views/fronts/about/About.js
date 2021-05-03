@@ -37,7 +37,7 @@ const About = () => {
         <div className="col-md-6">
           <div className="text-center animation" data-animation="fadeInUp" data-animation-delay="0.01s">
             <div className="heading_s1 text-center">
-              <h2>Why Choose Eduglobal</h2>
+              <h2>Why Choose SKITM</h2>
             </div>
             <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text</p>
           </div>

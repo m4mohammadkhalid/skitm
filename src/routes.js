@@ -4,10 +4,12 @@ import { Route, Switch, Redirect } from 'react-router-dom';
 import About from './views/fronts/about/About';
 import Contact from './views/fronts/contact/Contact';
 import { HomePageComponent } from './views/fronts/HomeComponent';
+import { Dashboard } from './views/backend';
+import Student from './views/backend/component/Student';
+import StudentDetails from './views/backend/component/StudentDetails';
 
 
 
-//import { Footer } from './components/Footer';
 
 export const Routes = () => {
   return (
@@ -20,6 +22,14 @@ export const Routes = () => {
         </Route>
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
+
+
+
+        <Route exact path="/dashboard" component={Dashboard} />
+        <Route exact path="/student" component={Student} />
+        <Route exact path="/studentdetails" component={StudentDetails} />
+
+        
 
       </Switch>
      

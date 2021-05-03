@@ -5,9 +5,20 @@ import reportWebVitals from './reportWebVitals';
 
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Routes } from './routes';
+import { createMuiTheme,ThemeProvider } from '@material-ui/core/styles';
+import blue from '@material-ui/core/colors/blue';
+
+const theme = createMuiTheme({
+  palette: {
+    main: blue,
+  },
+});
 ReactDOM.render(
+  
   <Router>
+  <ThemeProvider theme={theme}>
   <Routes />
+  </ThemeProvider>
 </Router>,
   document.getElementById('root')
 );
